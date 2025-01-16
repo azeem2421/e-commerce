@@ -1,0 +1,142 @@
+
+.sticky{
+    background-color: #333;
+    position: sticky;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.dataTables_wrapper {
+    margin-left:2rem
+  }
+ 
+
+.order-tabs {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order-tabs li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .order-tabs li.active {
+    background-color: #ddd;
+  }
+  
+  .order-table tbody tr[data-status="pending"] td:nth-child(6) {
+    color: #FF0000;
+  }
+  
+  .order-table tbody tr[data-status="processing"] td:nth-child(6) {
+    color: #FFA500;
+  }
+  
+  .order-table tbody tr[data-status="ready"] td:nth-child(6) {
+    color: #FFFF00;
+  }
+  
+  .order-table tbody tr[data-status="dispatched"] td:nth-child(6) {
+    color: #00FF00;
+  }
+  
+  .order-table tbody tr[data-status="delivered"] td:nth-child(6) {
+    color: #0000FF;
+  }
+  
+  .vieworder {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vieworder:hover {
+    background-color: rgb(2, 196, 2);
+    
+  }
+  
+   /* Modal styles */
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* styles for the order table */
+  .order-table {
+    width: 100%;
+  }
+
+  /* CSS for the Update Order Status button */
+.updatestatus {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.updatestatus:hover {
+  background-color: #45a049;
+}
+
+.updatestatus:focus {
+  outline: none;
+}
+
+.updatestatus:active {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,104 @@
+header
+{
+	background-color: #9D0591;
+	padding: 15px;	
+}
+
+header li
+{
+	display: inline;
+	padding-left: 45px;
+}
+header li a 
+{
+	color: #ffffff;	
+	text-decoration: none;
+	padding: 13px;	
+}
+
+header li a:hover
+{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: darkorchid;
+	border-radius: 10px;
+}
+header ul #login a
+{
+	
+	background-color: green;
+	border-radius: 30px;
+	float: right;
+	position: relative;
+	top: -15px;
+	transition: .3s ease;
+
+}
+header ul #login a:hover
+{
+	background-color: #fb8cab;
+	color: #000000;
+}
+header li img
+{
+	width: 180px;
+	float: left;
+	margin-top: -20px;
+}
+
+#login{
+	color: rgb(207, 6, 233);
+	text-decoration: none;
+}
+
+.customer-email{
+	color: black;
+	font-weight: bold;
+}
+
+/* CSS styling for the cart count */
+span.cart-count {
+	background-color: #ea00ff;
+	color: black;
+	padding: 5px 10px;
+	border-radius: 50%;
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	
+}
+
+.active{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: darkorchid;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header li {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header li a {
+        padding: 10px;
+    }
+
+    header ul #login a {
+        float: none;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    header li img {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,8 @@
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+

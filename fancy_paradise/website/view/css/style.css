@@ -1,0 +1,640 @@
+body
+{
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+.btn{
+    color: #000000;
+    background-color: #fb8cab;
+    text-decoration: none;
+    padding: 15px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.float-container{
+    position: relative;
+}
+.fancy-items-search{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.search {
+    padding: 10px;
+    border:1px solid #000000  !important;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    
+  }
+  
+  .search::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .search:required {
+    border-color: red;
+  }
+  
+
+.searchbtn{
+    color: #000000;
+    background-color: #fb8cab;
+    text-decoration: none;
+    padding: 8px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.searchbtn:hover{    
+    background-color: #f14d7c;
+    color: white;
+}
+
+
+
+.fancy-items-search input[type="search"]{
+    width: 80%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* CSS for Categories and Products */
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 28%;   
+    float: left;
+    margin: 2%;
+}
+
+.catname{
+	text-align:center;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.text-black{
+    color: black;
+}
+
+.product-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.product-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.product-menu-img{
+    width: 22%;
+    float: left;
+}
+
+.product-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.product-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.product-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+.addtocartcon{
+    position: relative;
+}
+
+.addtocartcon input {
+    padding-left: 30px; 
+}
+
+.addtocartcon span {
+    position: absolute;    
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.addtocartbtn{    
+    color: #ffffff;
+    background-color: rgb(64, 194, 86);
+    padding: 3px;
+    border-radius: 10px;   
+    display:inline-flex;
+}
+
+.addtocartbtn:hover{
+    text-decoration: none ;
+    color: #000000;
+    background-color: chartreuse;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+
+
+
+/* CSS for Cart */
+
+  
+  .cart-items {
+    
+    background-color: #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #00000033;
+    margin-top: 5%;    
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+  
+  .cart-item {
+    display: flex;
+    margin-bottom: 2%;
+    padding: 2%;
+  }
+  
+  .item-image {
+    width: 20%;
+  }
+  
+  .item-image img {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .item-details {
+    width: 80%;
+    padding-left: 2%;
+  }
+  
+  .item-details h4 {
+    margin-bottom: 5px;
+  }
+  
+  .item-details p {
+    margin-bottom: 2px;
+    font-size: 0.9rem;
+  }
+  
+  .cart-summary {
+    margin-top: 5%;
+    text-align: center;
+    
+  }
+
+  .summary-details{
+    display: inline-block;
+  }
+  
+  .cart-summary h3 {
+    margin-bottom: 2%;
+  }
+  
+  .summary-details p {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .checkoutbtn {
+    margin-top: 3%;
+    color: #000000;
+    background-color: #a82f2f;
+    text-decoration: none;
+    padding: 15px;
+    
+  }
+  
+  .checkoutbtn:hover {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border-color: #000000;
+    text-decoration: none;
+  } 
+
+  .clear-cart-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-cart-btn:disabled {
+    cursor: not-allowed;
+  }
+
+  .input-quantity::-webkit-inner-spin-button,
+  .input-quantity::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  
+/* CSS for contact_us */
+.contact_us {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #fff;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .map_container {
+    flex: 1;
+  }
+  
+  .contactus_form {    
+    padding: 50px;
+    background-color: #ccc;
+  }
+
+  label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .contactus_form input[type="text"],
+  .contactus_form input[type="email"],
+  .contactus_form input[type="tel"],
+  .contactus_form textarea {
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+    box-sizing: border-box;
+  }
+  .submitInquiry {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submitInquiry:hover {
+    background-color: #45a049;
+  }
+
+ /* css for proceed_details */
+.proceed_details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #fff;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .proceed_des {
+    flex: 1;    
+    color: #363636;
+    font-size: 50px;
+    margin-top: 50px;    
+  }
+  
+  .proceed_details_form {    
+    padding: 50px;
+    background-color: #a54690;
+    font-weight: bold;
+    box-shadow: 0 0 5px 2px gray;
+  }
+
+  
+
+  .proceed_details_form input[type="text"],
+  .proceed_details_form input[type="email"],
+  .proceed_details_form input[type="tel"], 
+  .proceed_details_form select,
+  .proceed_details_form textarea {
+    background-color: #ccc;    
+    width: 100%;
+    padding-right: 20px;    
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;    
+    box-sizing: border-box;
+  }
+  .submitDetails {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submitDetails:hover {
+    background-color: #45a049;
+  }
+
+ /* css for proceed_payment */
+
+.proceed_payment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #fff;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .customer_details {
+    flex: 1;    
+    color: #363636;    
+    margin-top: 50px;
+    text-align: left;    
+  }
+  
+  .proceed_payment_details {    
+    padding: 50px;
+    background-color: #a54690;    
+    box-shadow: 0 0 5px 2px gray;
+  }
+
+  #payhere-payment{
+    background-color: #f14d7c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+  }
+
+  #payhere-payment:hover{
+    background-color: #fb8cab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  #pay_now{
+    background-color: #0a9120;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+  }
+
+  #pay_now:hover{
+    background-color: #4df17e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+/* CSS for Order Summary */
+  .order-items {
+    background-color: #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #00000033;
+    margin: 5% auto;
+    padding: 20px;
+    max-width: 60%; 
+  }
+  
+  .order-items table {
+    width: 100%;
+  }
+  
+  .order-items th,
+  .order-items td {
+    text-align: left;
+  }
+  
+  .order-items th:first-child,
+  .order-items td:first-child {
+    padding-left: 0;
+  }
+  
+  .order-items th:last-child,
+  .order-items td:last-child {
+    padding-right: 0;
+  }
+  
+  p.success {
+    background-color: #c9f7c9;
+    color: #28a745;
+    border: 1px solid #28a745;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .print_bill {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .print_bill:hover {
+    background-color: teal;
+  }
+  
+
+
+/* CSS for Customer Details */
+
+  .customerdetails {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customerdetails th,
+.customerdetails td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.customerdetails th {
+    background-color: #f2f2f2;
+}
+
+
+
+/* CSS for Order Details */
+.customerorders {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customerorders th,
+.customerorders td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.customerorders thead {
+  background-color: #f2f2f2;
+}
+
+.customerorders tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.customerorders tbody tr:hover {
+  background-color: #e3e3e3;
+}
+
+.customerorders a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* CSS for View Order Details */
+
+.order-details {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-details th,
+.order-details td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.order-details th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.order-details img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .fancy-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+
+    .fancy-search {
+        padding: 10% 0;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .product-menu {
+        padding: 20% 0;
+    }
+
+    .product-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social {
+        padding: 5% 0;
+    }
+
+    .order {
+        width: 100%;
+    }
+    .contact_us {
+        flex-direction: column;
+      }
+    
+      .contactus_form {
+        padding-left: 0;
+        margin-top: 20px; 
+      }
+      .proceed_details {
+        flex-direction: column;
+      }
+    
+      .proceed_details_form {
+        padding-left: 0;
+        margin-top: 20px; 
+      }
+    }

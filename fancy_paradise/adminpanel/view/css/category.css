@@ -1,0 +1,78 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;    
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    width: 100%;    
+}
+
+
+
+.add-category-btn{
+    background-color: #1e90ff;
+    color: black;
+    padding: 3px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-style: double;
+    
+}
+
+.add-category-btn:hover{
+    background-color: #3742fa;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.category-display-form{
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.update-button{
+    background-color: #7bed9f;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    border-style: inset;
+}
+
+.update-button:hover{
+    background-color: #2ed573;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-style: outset;
+}
+
+.delete-button{
+    background-color: #ff6b81;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    border-style: inset;
+}
+
+.delete-button:hover{
+    background-color: #ff4757;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-style: outset;
+}
+
+.error{
+	color: red;
+	
+}
+
+.username{
+    text-align:right;
+    float:right;
+    padding: 6px;
+}
+

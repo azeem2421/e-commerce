@@ -1,0 +1,27 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+table{
+    border-collapse: separate;
+    border-spacing: 30px;
+    margin:10% auto;
+    background-color: skyblue;
+    border-left: 3px solid;
+}
+.savebtn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+.savebtn:hover{
+   background-color: limegreen; 
+}

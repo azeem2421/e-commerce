@@ -1,0 +1,29 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.blogdesire-form{
+    margin: 25%;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.blogdesire-button{
+    margin: 10px;
+    border: none;
+    padding: 20%;
+    color: white;
+    background: green;
+    cursor: pointer;
+}

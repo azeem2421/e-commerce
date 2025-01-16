@@ -1,0 +1,16 @@
+
+.sticky{
+    background-color: #333;
+    position: sticky;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.dataTables_wrapper {
+    margin-left:2rem
+  }
+ 

@@ -1,0 +1,46 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+
+.settingform{
+    padding-left: 70px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+.module-list {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.savesettingsbtn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;    
+}
+
+.savesettingsbtn:hover {
+    background-color: #45a049;
+}
+

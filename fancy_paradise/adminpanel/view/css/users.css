@@ -1,0 +1,120 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+
+.add-user-btn{
+    background-color: #1e90ff;
+    color: black;
+    padding: 3px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-style: double;
+    
+}
+
+.add-user-btn:hover{
+    background-color: #3742fa;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.user-display-form{
+    width: 90%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.update-button{
+    background-color: #7bed9f;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    border-style: inset;
+}
+
+.update-button:hover{
+    background-color: #2ed573;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-style: outset;
+}
+
+.status.active {
+    background-color: #8dffbd;
+    color: black;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+  }
+  .status.active:hover {
+    background-color: green;
+    color: black;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+  } 
+  
+  .status.deactive {
+    background-color: rgb(255, 133, 133);
+    color: black;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+  }
+
+  .status.deactive:hover {
+    background-color: red;
+    color: black;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+  }
+
+.change_password{
+    background-color: #1e90ff;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    border-style: inset;
+    
+}
+
+.change_password:hover{
+    background-color: #3742fa;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-style: outset;
+    
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: white;
+    border: 1px solid #333;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,30 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.username{
+    text-align:right;
+    float:right;
+    padding: 6px;
+}
+
+.dataTables_wrapper {
+    margin-left:2rem
+  }
+ 
+  .add-stock-btn{
+    background-color: #1e90ff;
+    color: black;
+    padding: 3px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-style: double;
+    
+}

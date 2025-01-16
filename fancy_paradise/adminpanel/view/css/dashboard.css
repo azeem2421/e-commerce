@@ -1,0 +1,61 @@
+.sticky{
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+
+.chartcontainer {
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 80px auto auto 250px;    
+  }
+  
+  .topsellingchart{ 
+    width: 400px;
+    
+  }
+    .saleschart {    
+    width: 800px;
+    padding-left: 50px;
+    
+  }
+  
+  .countreports {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  
+  .countreports table {
+    width: 600px;
+    border-collapse: collapse;
+  }
+  
+  .countreports th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .countreports td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .countreports td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: red;
+  }
+  

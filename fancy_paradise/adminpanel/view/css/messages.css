@@ -1,0 +1,42 @@
+
+.sticky{
+    background-color: #333;
+    position: sticky;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.dataTables_wrapper {
+    margin-top: 5rem;
+    margin-left:2rem;
+  }
+ 
+  .pending {
+    color: red;
+}
+
+.replied {
+    color: green;
+}
+
+.right-button {
+    background-color: #ffffff00;
+    border: none;
+    color: #000000;
+    padding: 0;
+    cursor: pointer;
+}
+
+.right-button:hover {
+    background-color: #9c8f8f00;
+    color: #ff0000;
+}
+
+.right-button i {
+    font-size: 27px;
+}
